@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/index/index",
+    "pages/profile/my/my",
+    "pages/sales-order/order/order",
+    "pages/delivery-management/delivery/delivery"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#289CFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index/index",
+        "text": "首页",
+        "iconPath": "assets/img/tab_home_normal.png",
+        "selectedIconPath": "assets/img/tab_home_selected.png"
+      },
+      {
+        "pagePath": "pages/sales-order/order/order",
+        "text": "销售订单",
+        "iconPath": "assets/img/tab_order_normal.png",
+        "selectedIconPath": "assets/img/tab_order_selected.png"
+      },
+      {
+        "pagePath": "pages/delivery-management/delivery/delivery",
+        "text": "送货管理",
+        "iconPath": "assets/img/tab_material_normal.png",
+        "selectedIconPath": "assets/img/tab_material_selected.png"
+      },
+      {
+        "pagePath": "pages/profile/my/my",
+        "text": "个人中心",
+        "iconPath": "assets/img/tab_my_normal.png",
+        "selectedIconPath": "assets/img/tab_my_selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

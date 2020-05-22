@@ -1,0 +1,5 @@
+<view class = "container">
+  <text>个人中心</text>
+
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

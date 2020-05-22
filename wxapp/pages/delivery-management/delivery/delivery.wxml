@@ -1,0 +1,5 @@
+<view class = "container">
+  <text>送货管理</text>
+
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

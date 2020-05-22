@@ -1,0 +1,6 @@
+<!--pages/sales-order/order/order.wxml-->
+<view class = "container">
+  <text>销售订单</text>
+
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>
